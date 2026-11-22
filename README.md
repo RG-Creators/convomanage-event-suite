@@ -1,4 +1,4 @@
-# ConvoManage � Encrypted Conference & Real-Time Chat Suite
+# ConvoManage — Encrypted Conference & Real-Time Chat Suite
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-777bb4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
 [![Encryption](https://img.shields.io/badge/OpenSSL-AES--128--CTR-blueviolet?style=for-the-badge&logo=lock)](https://openssl.org)
@@ -9,7 +9,7 @@ An enterprise-ready conference management and encrypted real-time chat platform.
 
 ---
 
-## ?? System Architecture & Message Encryption Pipeline
+## 🏗️ System Architecture & Message Encryption Pipeline
 
 ```
 +--------------------------------------------------------------------------+
@@ -42,7 +42,7 @@ An enterprise-ready conference management and encrypted real-time chat platform.
 
 ---
 
-## ? Key Highlights
+## ⚡ Key Highlights
 
 - **At-Rest AES-128-CTR Cryptography**: Chat messages are encrypted using room-specific cryptographic keys and per-message randomized Initialization Vectors (IVs).
 - **6-Digit Alphanumeric Join Codes**: Zero-friction conference participation with instant join link resolution.
@@ -52,7 +52,7 @@ An enterprise-ready conference management and encrypted real-time chat platform.
 
 ---
 
-## ?? Tech Stack
+## 🛠️ Tech Stack
 
 - **Backend**: Core PHP 8.2+ (PDO, OpenSSL Cryptographic Library)
 - **Frontend**: Responsive CSS Grid / Flexbox, FontAwesome 6, jQuery AJAX
@@ -60,7 +60,7 @@ An enterprise-ready conference management and encrypted real-time chat platform.
 
 ---
 
-## ?? Installation & Local Development
+## 🚀 Installation & Local Development
 
 1. **Clone the Repository**:
    ```bash
@@ -86,5 +86,5 @@ An enterprise-ready conference management and encrypted real-time chat platform.
 
 ---
 
-## ?? License
+## 📄 License
 This project is open-source under the [MIT License](LICENSE).
