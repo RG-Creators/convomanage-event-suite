@@ -1,0 +1,15 @@
+# Prevent directory browsing
+Options -Indexes
+
+# Block sensitive files
+<FilesMatch "\.(sql|env|log|bak|json|lock)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Security Headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
